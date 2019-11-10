@@ -182,15 +182,16 @@ h5 {
 	color: #000;
 	font-size: 12pt;
 }
+h6 {
+	color: #000;
+	font-size: 18pt;
+}
 h3 {
 	font-size: 20pt;
 	color: #36c0f4;
 }
 
-h6 {
-	color: #000;
-	font-size: 18pt;
-}
+
 p {
 	line-height: 28px;
 	margin-bottom: 25px;
@@ -283,6 +284,10 @@ body {
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 	-o-background-size: 100%; /* Opera 9.6+ */
 	background-size: 100%;
+}
+
+.car {
+	width: 100%;
 }
 
 .carousel-inner h3 {
