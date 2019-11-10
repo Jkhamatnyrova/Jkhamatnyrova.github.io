@@ -1,0 +1,372 @@
+﻿.navbar-nav {
+	width: calc(95% - 255px);
+	text-align: center;
+}
+
+.navbar-nav > li {
+	display: inline-block; 
+	vertical-align: middle; 
+	float: none;
+}
+
+.navbar {
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 60px;
+}
+
+.navbar-inverse .navbar-nav > .active >a {
+	background: #489FDF;
+	background-color: #489FDF;
+}
+
+.navbar-inverse .navbar-drand {
+	color: #489FDF;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #489FDF;
+
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    margin-top: 0px;
+    border-color: #fff;
+    padding-top: 0px;
+}
+
+.navbar-inverse {
+    background-color: #489FDF;
+    border-color: #489FDF;
+}
+
+/* НОВЫЙ ХЭДЕР */
+
+#ddmenu {
+	font-family: "Helvetica";
+	color: #fff;
+	width: calc(100% - 100px);
+	text-align: center;
+	background: #489FDF;
+	outline: none;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#ddmenu li {
+	color: #fff;
+	background: #489FDF;
+	display: inline-block; 
+	vertical-align: middle;
+	padding: 4px 0px; 
+	float: none;
+	position: relative;
+}
+
+#ddmenu a {
+	color: #fff;/ vot tyt
+	background: #489FDF;
+	display: block;
+	padding: 0px 12px;
+	text-decoration: none;
+}
+
+#ddmenu ul {
+	color: #fff;
+	position: absolute;
+	width: 160px;
+	background: #489FDF;
+	margin: 0;
+	padding: 7px 0;
+	list-style: none;
+	border-radius: 3px;
+	display: none;
+	border: 1px solid rgba(1, 1, 1, 0.2);
+	box-shadow: 0 0 5px rgba(1, 1, 1, 0.2);
+}
+
+#ddmenu > div > li {
+	float: left;
+}
+
+#ddmenu > div > li > a {
+	display: block;
+}
+
+#ddmenu ul li {
+	color: #fff;
+	background: #489FDF;
+	width: 100%;
+	text-shadow: 1px 1px 0 #489FDF;
+	display: block;
+	width: 100%;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;262262
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	z-index: 200;
+}
+
+#ddmenu a:hover {
+	color: #fff;
+	background: #489FDF;
+}
+
+#ddmenu ul li a:hover {
+	color: #fff;
+	background: #489FDF;
+}
+
+.logo3 {
+	z-index: 101;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+}
+
+.logo3 img{
+	position: absolute;
+	top: -0px;
+	width: 150px;
+    height: 95px;
+}
+
+@media screen and (max-width: 991px) {
+	.logo3 img{
+		width: 150px;
+	    height: 95px;
+	}
+	.navbar {
+		margin-bottom: 80px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.logo3 img{
+		width: 135px;
+	    height: 82px;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	    margin-top: 16px;
+	    border-color: #fff;
+	    padding-top: 40px;
+	}
+	#ddmenu {
+		width: 70%;
+	}
+	.navbar {
+		margin-bottom: 5@0px;
+	}
+}
+
+/* Конец */
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333;
+}
+
+h4 {
+	color: #36c0f4;
+	font-size: 15pt;
+}
+h5 {
+	color: #000;
+	font-size: 12pt;
+}
+h3 {
+	font-size: 20pt;
+	color: #36c0f4;
+}
+
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+    text-indent: 20px; /* Отступ первой строки в пикселах */
+}
+
+.sam p {
+	font-size: 50px; /* Якорь-самолёт*/
+}
+
+.centered{
+	text-align: justify;
+}
+
+a {
+	color: #00BFFF;
+}
+
+a:hover, a:focus {
+	color: #00FFFF;
+	text-decoration: none;
+	outline: 0;
+}
+
+.img-responsive{
+  	display: block;
+  	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}	
+
+
+
+#Headerwrap {
+	background: url(../images/pl.png) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center;
+	min-height: 400px;
+	width: 75;
+	box-shadow: 0 0 100px rgba(1,0,0,1); 
+
+	background-size: 100%;
+
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	background-size:cover; 
+}
+
+#Headerwrap h1 {
+
+	margin-top: 100px;
+	color: black;
+	font-size: 70px;
+	font-weight: 300%;
+	letter-spacing: 3px;
+
+}
+
+#Headerwrap h2 {
+	color: white;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.w {
+	padding-top: 35px;
+	position: center;
+}
+ 
+ .w h4 {
+ 	font-size: 25px;
+ 	text-align: center;
+}
+
+.item {
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+    background: url(Fone.svg);
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%; /* Opera 9.6+ */
+	background-size: 100%;
+}
+
+.car {
+	width: 100%;
+}
+
+.carousel-inner h3 {
+ background-color: rgba(20, 49, 68, 0.6);
+ padding: 20px;
+ animation: anime-H3 1.3s ease-out;
+ color: #fff;
+}
+
+.carousel-inner p {
+ font-size: 18px;
+ background-color: rgba(30,29,29, 0.6);
+ padding: 20px;
+ animation: anime-P 1.6s ease-out;
+}
+
+@media screen and (max-width: 991px) {
+}
+
+.dws-slider
+{
+ height: 10px; 
+ width: 10px;
+ text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+	.carousel-inner h3 {
+	 font-size: 14px;
+	 padding: 5px;
+	}
+
+	.carousel-inner p {
+	 font-size: 12px;
+	 padding: 5px;
+	 margin-bottom: 10px;
+	}
+	.carousel {
+	 height: 271px;
+	}
+	.carousel-inner>.item>img {
+	 height: 271px;
+	}
+}
+
+@keyframes anime-H3 {
+ from {
+  opacity: 0;
+  transform: translateX(-2000px);
+ }
+ to {
+  opacity: 1;
+  transform: translateX(0);
+ }
+}
+
+@keyframes anime-P {
+ from {
+  opacity: 0;
+  transform: translateX(2000px);
+ }
+ to {
+  opacity: 1;
+  transform: translateX(0);
+ }
+}
+
+
+ .thumb img {
+            -webkit-filter: brightness(0%);
+            filter: none;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid #727272;
+            padding: 5px;
+        }
+ 
+        .thumb img:hover {
+            -webkit-filter: brightness(120%);
+            filter: brightness(120%);
+            border: 1px solid #75bbfd; вот сюда посмотреть
+        }
+ 
+        .thumb {
+            padding: 5px;
+        }
