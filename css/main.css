@@ -179,7 +179,7 @@ h4 {
 	font-size: 15pt;
 }
 h5 {
-	color: #36c0f4;
+	color: #000;
 	font-size: 12pt;
 }
 h3 {
@@ -187,7 +187,10 @@ h3 {
 	color: #36c0f4;
 }
 
-
+h6 {
+	color: #000;
+	font-size: 18pt;
+}
 p {
 	line-height: 28px;
 	margin-bottom: 25px;
