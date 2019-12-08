@@ -1,2 +1,0 @@
-# jkhamatnyrova.github.io
-hosting
